@@ -1,13 +1,79 @@
 .Footer-container {
-  padding: 40px 80px;
+  padding-right: 80px;
+  padding-left: 80px;
   display: flex;
   flex-direction: column;
-  row-gap: 28px;
-  align-items: center;
-  justify-content: center;
   background-color: black;
 }
 
 .Footer-Top {
-   
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.Check-Availability {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Footer-Buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+}
+
+.Sign-Up {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 26px;
+  padding: 8px 16px;
+  width: 117px;
+}
+
+.Book-Now {
+  background-color: #36454F;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 26px;
+  padding: 8px 16px;
+}
+
+.Footer-Middle {
+  border-bottom: 1px solid white;
+}
+
+.Footer-Bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.Footer-Links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  list-style-type: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Social-Media-Icons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+}
+
+..Social-Media-Icon {
+  width: 30px;
+  height: 30px;
 }
