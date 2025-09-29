@@ -1,0 +1,125 @@
+.Recommended-section {
+  padding: 40px 80px;
+  display: flex;
+  row-gap: 28px;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.Recommended-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 881px;
+}
+
+.chevron-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.chevron-button {
+  padding: 10px 10px 10px 14px;
+  border-radius: 30px;
+  background-color: hsla(0, 0%, 100%, 0);
+}
+
+.Hosting-Cards {
+  width: 1281px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 28px;
+}
+
+.Hosting-Card {
+  width: 395px;
+  height: 315px;
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  background-color: white;
+  position: relative;
+}
+
+.card-image {
+  height: 225px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.price {
+  background-color: #EAECF0;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.Amount {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Night {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.amenities-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.amenities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 6px;
+  padding: 6px 10px;
+  background-color: white;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+.amenities-icon {
+  height: 20px;
+}
+
+.Top-Locations-Section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+}
+
+.Top-Locations-Container {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Top-Locations-Text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 12px;
+}

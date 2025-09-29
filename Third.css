@@ -1,0 +1,106 @@
+.Offer-section-container {
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Discount-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 32px;
+  width: 1280px;
+  height: 215px;
+  border-radius: 20px;
+  padding: 22px 21px ;
+  background-image: url("Images/unsplash_uHHkS4aNhuI.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Discount {
+  
+}
+
+.up {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.check {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.CTA {
+  background-color: white;
+  font-size: 16px;
+  border-radius: 26px;
+  border-width: 0.5px;
+  padding: 8px 16px;
+  width: 117px;
+}
+
+.testitmony-section-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.Heading {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.testitmony-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 68px;
+}
+
+.testitmony {
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  padding: 60px 32px;
+}
+
+.Untitled {
+  text-align: center;
+  font-size: 24px;
+  width: 289px;
+}
+
+.personal-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.Avatar {
+  width: 56px;
+  height: 56px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 4px;
+}
+
+.Mollie, .web {
+  text-align: center;
+}
