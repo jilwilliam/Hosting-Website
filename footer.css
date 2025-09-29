@@ -1,0 +1,13 @@
+.Footer-container {
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.Footer-Top {
+   
+}
