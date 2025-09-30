@@ -17,12 +17,10 @@
 <body>
   <div class="Hero-section">
     <nav class="Navbar">
-      <img src="Logos and Icons/Logo.png" alt="">
-      <div>
-        <div class="account">
-          <img src="Logos and Icons/material-symbols_menu.png" alt="" class="account-icon">
-          <img src="Logos and Icons/codicon_account.png" alt="" class="account-icon">
-        </div>
+      <img class="logo" src="Logos and Icons/Logo.png" alt="">
+      <div class="account">
+          <img class="account-icon" src="Logos and Icons/material-symbols_menu.png" alt="">
+          <img class="account-icon-2" src="Logos and Icons/codicon_account.png" alt="">
       </div>
     </nav>
     <div class="text-section">
@@ -34,15 +32,18 @@
         </p>
       </div>
       <div class="search-section">
-        <div class="search-tab">
-          <p class="tab-name">City or Hotel Name</p>
-          <input type="text" placeholder="Location" class="search-bar">
+        <div class="search-tabs">
+          <div class="search-tab">
+            <p class="tab-name">City or Hotel Name</p>
+            <input type="text" placeholder="Location" class="search-bar">
+          </div>
+          <div class="search-tab">
+            <p class="tab-name">Check In Date</p>
+            <input type="text" placeholder="Date" class="search-bar">
+          </div>
         </div>
-        <div class="search-tab">
-          <p class="tab-name">Check In Date</p>
-          <input type="text" placeholder="Date" class="search-bar">
-        </div>
-        <div class="search-tab">
+        <div class="search-tabs">
+          <div class="search-tab">
           <p class="tab-name">Check Out Date</p>
           <input type="text" placeholder="Date" class="search-bar">
         </div>
@@ -50,7 +51,8 @@
           <p class="tab-name">Guests and Room</p>
           <input type="text" placeholder="Add guests" class="search-bar">
         </div>
-        <button class="search-button">
+        </div>
+          <button class="search-button">
           <img src="Logos and Icons/search-sm.png" alt="">
           Search
         </button>
