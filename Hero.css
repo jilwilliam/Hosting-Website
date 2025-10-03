@@ -1,9 +1,10 @@
 .Hero-section {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 1024px;
-  width: 100%;
-  padding-bottom: 40px;
+  width: 100%; 
+  padding-bottom: 20px;
   background-image: url("Images/Hero Image.png");
   background-position: center;
   background-size: cover;
@@ -11,12 +12,12 @@
 }
 
 .Navbar {
-  margin-bottom: 320px;
-  padding: 20px 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  column-gap: 1090px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
   background-color: hsl(204, 19%, 26%, 0.3);
 }
 
@@ -44,14 +45,12 @@
 .Hero-text {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
 }
 
 .text-section {
   display: flex;
   flex-direction: column;
   row-gap: 400px;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -69,11 +68,10 @@
 }
 
 .search-section {
-  width: 1200px;
   display: flex;
-  justify-content: center;
-  align-items: end;
+  flex-direction: row;
   column-gap: 12px;
+  align-items: end;
   background-color: hsla(0, 0%, 100%, 0.4);
   border-radius: 20px;
   padding: 16px;
@@ -82,14 +80,13 @@
 .search-tabs {
   display: flex;
   flex-direction: row;
-  column-gap: 24px;
+  column-gap: 12px;
 }
 
 .search-tab {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
-  padding: 8px;
 }
 
 .tab-name {
@@ -98,13 +95,13 @@
   color: white;
 }
 
-.search-bar {
-  width: 199px;
+.search-input {
+  width: 158px;
   border-radius: 24px;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(0, 0, 0);
-  padding: 10px 16px;
+  padding: 10px 0px 10px 20px;
   font-size: 12px;
 }
 
@@ -112,9 +109,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  column-gap: 6px;
-  padding: 6px 40px;
-  margin-bottom: 10px;
+  column-gap: 4px;
+  height: 34px;
+  padding: 6px 20px;
+  font-size: 14px;
+  margin-bottom: 2px;
   border-style: solid;
   border-width: 0.5px;
   border-color: rgb(0, 0, 0);
@@ -122,14 +121,14 @@
   background-color: white;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
   .Hero-section {
-    height: 844px;
-    width: 400px;
+    display: flex; flex-direction: column;
+    height: 844px; width: 375px;
+    padding-bottom: 20px;
   }
+
   .Navbar {
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 16px;
   }
 
@@ -151,17 +150,55 @@
     height: 20px;
   }
 
+  .text-section {
+    row-gap: 150px;
+    margin: 0px 16px 0px 16px;
+  }
+
+  .Welcome {
+    font-size: 32px;
+    width: 343px;
+  }
+
+  .Gain {
+    font-size: 14px;
+    width: 343px;
+  }
+
   .search-section {
-    width: 300px;
     flex-direction: column;
+    align-items: stretch;
+    width: 323px;
     row-gap: 12px;
-    align-items: center;
+    padding: 10px;
   }
+
+  .search-tabs {
+    flex-direction: row-reverse;
+    column-gap: 13px;
+  }
+
   .search-tab {
-    width: 100%;
-    align-items: center;
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
-  .search-bar {
-    width: 100%;
+
+  .search-input {
+    width: 138px;
+    font-size: 12px;
+    padding: 8px 0px 8px 15px;
   }
+
+  .tab-name {
+    font-size: 12px;
+  }
+
+  .search-button {
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
+  }
+
 }

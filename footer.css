@@ -1,17 +1,15 @@
 .Footer-container {
-  padding-right: 80px;
-  padding-left: 80px;
+  padding: 40px 80px;
   display: flex;
   flex-direction: column;
+  row-gap: 32px;
   background-color: black;
 }
 
 .Footer-Top {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  padding: 40px 0px;
 }
 
 .Check-Availability {
@@ -33,7 +31,6 @@
   font-weight: 600;
   border-radius: 26px;
   padding: 8px 16px;
-  width: 117px;
 }
 
 .Book-Now {
@@ -54,7 +51,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 0px;
 }
 
 .Footer-Links {
@@ -76,4 +72,27 @@
 .Social-Media-Icon {
   width: 30px;
   height: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  
+  .Footer-container {
+    padding: 20px 16px;
+    row-gap: 24px;
+  }
+
+  .Footer-Top {
+    flex-direction: column;
+    row-gap: 24px;
+  }
+
+  .Footer-Bottom {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .Footer-Links {
+  flex-direction: column;
+  column-gap: 12px;
+  }
 }

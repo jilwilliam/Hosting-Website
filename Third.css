@@ -7,13 +7,18 @@
   justify-content: center;
 }
 
+.Top-Locations-Container {
+  width: 1260px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .Discount-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  row-gap: 32px;
-  width: 1280px;
-  height: 215px;
+  width: 1238px;
+  height: 171px;
   border-radius: 20px;
   padding: 22px 21px ;
   background-image: url("Images/unsplash_uHHkS4aNhuI.png");
@@ -105,4 +110,67 @@
 
 .Mollie, .web {
   text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .Offer-section-container {
+    padding: 0px 16px;
+  }
+
+  .Top-Locations-Container {
+    width: 343px;
+    column-gap: 12px;
+    overflow: auto;
+  }
+
+  .Discount-section {
+    width: 323px;
+    height: 130px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  .up {
+    font-size: 24px;
+    width: 311px;
+  }
+
+  .check {
+    font-size: 14px;
+    width: 311px;
+  }
+
+  .CTA {
+    font-size: 10px;
+    padding: 6px 12px;
+    width: 80px;
+  }
+
+  .testitmony-section-container {
+    padding: 20px 16px;
+  }
+
+  .Heading {
+    font-size: 28px;
+    width: 343px;
+    text-align: center;
+  }
+
+  .testitmony-section {
+    width: 323px;
+    row-gap: 12px;
+    align-items: center;
+    overflow: auto;
+  }
+
+  .testitmony {
+    width: 291px;
+    padding: 56px 16px;
+    row-gap: 24px;
+  }
+
+  .Untitled {
+    font-size: 20px;
+    width: 311px;
+  }
 }
