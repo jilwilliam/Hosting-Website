@@ -74,7 +74,7 @@
   height: 30px;
 }
 
-@media screen and (min-width: 375px ) and (max-width: 440px) {
+@media screen and (min-width: 375px) and (max-width: 440px) {
   .Footer-container {
     padding: 20px 16px;
     row-gap: 24px;
@@ -83,16 +83,19 @@
   .Footer-Top {
     flex-direction: column;
     row-gap: 24px;
+    align-items: flex-start; /* keeps layout tidy */
   }
 
   .Footer-Bottom {
     flex-direction: column;
     gap: 24px;
+    align-items: center;
+    text-align: center; /* improves readability */
   }
 
   .Footer-Links {
     flex-direction: column;
-    column-gap: 12px;
+    row-gap: 12px;
+    align-items: flex-start;
   }
-  
 }
