@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 1024px;
-  width: 100%; 
+  width: 100%;
   padding-bottom: 20px;
   background-image: url("Images/Hero Image.png");
   background-position: center;
@@ -29,7 +29,7 @@
   width: 58px;
   padding: 6px 10px;
   border-radius: 18px;
-  background-color: #36454F;
+  background-color: #36454f;
 }
 
 .account-icon {
@@ -40,7 +40,7 @@
 .account-icon-2 {
   width: 24px;
   height: 24px;
-} 
+}
 
 .Hero-text {
   display: flex;
@@ -121,10 +121,12 @@
   background-color: white;
 }
 
-@media screen and (min-width: 375px ) and (max-width: 440px) {
+@media screen and (min-width: 375px) and (max-width: 440px) {
   .Hero-section {
-    display: flex; flex-direction: column;
-    height: 844px; width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 844px;
+    width: 100%;
     padding-bottom: 20px;
   }
 
@@ -200,5 +202,4 @@
     justify-content: center;
     font-size: 16px;
   }
-
 }
