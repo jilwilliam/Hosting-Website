@@ -123,7 +123,7 @@
   margin-top: 12px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px ) and (max-width: 440px) {
   .Recommended-section {
     justify-content: flex-start;
     padding: 20px 16px;
