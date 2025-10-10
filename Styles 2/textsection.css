@@ -1,0 +1,43 @@
+.text-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  padding: 0px 80px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.text {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.subheader {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sub-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.texts {
+  font-size: 16px;
+}
+
+.Untitled {
+  font-size: 20px
+}

@@ -3,9 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   height: 1024px;
-  width: 100%;
   padding-bottom: 20px;
-  background-image: url("./Images/Hero Image.png");
+  background-image: url("../Images/Hero image.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

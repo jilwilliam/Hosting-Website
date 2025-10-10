@@ -1,0 +1,129 @@
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 28px;
+  padding: 0px 80px;
+}
+
+.photos-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photos-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.photos-side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 636px;
+  height: 470px;
+}
+
+.photos-section-1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.photos-section-2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.photo-1 {
+  border-radius: 20px;
+  width: 636px;
+  height: 470px;
+}
+
+.photo-2 {
+  border-radius: 20px;
+  width: 314px;
+  height: 230px;
+}
+
+.photo-3 {
+  border-radius: 20px;
+  width: 314px;
+  height: 230px;
+}
+
+.photo-4 {
+  border-radius: 20px;
+  width: 314px;
+  height: 230px;
+}
+
+.photo-5 {
+  border-radius: 20px;
+  width: 314px;
+  height: 230px;
+}
+
+.product-name-container {
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.product-name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.Aburi {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.amenities-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.amenities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 6px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+.amenities-icon {
+  height: 20px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  background-color: #EAECF0;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Amount {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.Night {
+  font-size: 20px;
+  font-weight: 700;
+}
