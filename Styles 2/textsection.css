@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   row-gap: 32px;
-  padding: 0px 80px;
+  padding: 20px 80px;
 }
 
 .text-section {
@@ -40,4 +40,32 @@
 
 .Untitled {
   font-size: 20px
+}
+
+@media screen and (min-width: 375px) and (max-width: 440px) {
+  .text-section-container {
+    row-gap: 24px;
+    padding: 20px 16px;
+  }
+
+  .text {
+  width: 343px;
+  row-gap: 12px;
+  }
+
+  .header {
+  font-size: 20px;
+  }
+
+  .subheader {
+  font-size: 16px;
+  }
+
+  .texts {
+  font-size: 14px;
+  }
+
+  .Untitled {
+  font-size: 20px
+  }
 }

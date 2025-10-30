@@ -1,7 +1,6 @@
 .product-page {
   display: flex;
   flex-direction: column;
-  row-gap: 64px;
 }
 
 .Navbar {
@@ -33,4 +32,17 @@
 .account-icon-2 {
   width: 24px;
   height: 24px;
+}
+
+@media screen and (min-width: 375px ) and (max-width: 440px) {
+
+  .Navbar {
+    padding: 20px 16px;
+  }
+
+  .account {
+    width: 48px;
+    padding: 6px 8px;
+    column-gap: 6px;
+  }
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   row-gap: 28px;
-  padding: 0px 80px;
+  padding: 40px 80px;
 }
 
 .photos-section-container {
@@ -26,13 +26,7 @@
   height: 470px;
 }
 
-.photos-section-1 {
-  display: flex;
-  flex-direction: row;
-  column-gap: 10px;
-}
-
-.photos-section-2 {
+.photos-section-1,.photos-section-2{
   display: flex;
   flex-direction: row;
   column-gap: 10px;
@@ -110,10 +104,14 @@
   height: 20px;
 }
 
+.amenities-text {
+  font-size: 10px;
+}
+
 .price {
   display: flex;
   flex-direction: row;
-  background-color: #EAECF0;
+  background-color: #eaecf0;
   padding: 5px;
   border-radius: 10px;
 }
@@ -126,4 +124,104 @@
 .Night {
   font-size: 20px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 375px) and (max-width: 440px) {
+  .first-section {
+    padding: 40px 16px;
+    row-gap: 12px;
+  }
+
+  .Navbar {
+    padding: 20px 16px;
+  }
+
+  .logo {
+    width: 63px;
+  }
+
+  .account {
+    padding: 0;
+  }
+
+  .account-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .account-icon-2 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .photos-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  width: 343px;
+  height: 336px;
+  }
+
+  .photos-side {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  }
+
+  .photo-1 {
+  border-radius: 20px;
+  width: 343px;
+  height: 211px;
+  }
+
+  .photo-2, .photo-3, .photo-4, .photo-5 {
+  border-radius: 20px;
+  width: 136.5px;
+  height: 113px;
+  }
+
+  .product-name-container {
+    width: 343px;
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  .product-name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  .Aburi {
+    font-size: 16px;
+  }
+
+  .amenities-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+  }
+
+  .amenities {
+    padding: 4px 4px;
+    border-radius: 16px;
+  }
+
+  .amenities-icon {
+    height: 15px;
+    width: 15px;
+  }
+
+  .amenities-text {
+    font-size: 10px;
+  }
+
+  .Amount {
+    font-size: 16px;
+  }
+
+  .Night {
+    font-size: 10px;
+  }
+
 }
